@@ -65,8 +65,7 @@ class CouponDispenser:
             str: message as described above
         """
         # TODO: Implement per instructions
-        if len(self.coupon_cards) == 0:
-            return "The box is empty."
+        if len(self.coupon_cards) == 0: return "The box is empty."
 
         if name in self.customer_roster:
             pos = self.customer_roster.index(name)
