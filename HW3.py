@@ -2,6 +2,7 @@
 # Student ID: 83606890
 # Email: avirai@umich.edu
 # Who or what you worked with on this homework (including generative AI like ChatGPT):
+# I did not work with anything.
 # If you worked with generative AI also add a statement for how you used it.
 # e.g.:
 # Asked ChatGPT hints for debugging and suggesting the general structure of the code
@@ -47,7 +48,7 @@ class CouponDispenser:
         """
         # TODO: Implement per instructions
         if len(self.coupon_cards) == 0: return ""
-        
+
         return "|".join(self.coupon_cards)
 
     def issue_coupon(self, name):
